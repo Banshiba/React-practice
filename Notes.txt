@@ -1,0 +1,17 @@
+1) Create element using  react api - React.createElement("<tag>", {props}, "Content")
+2) Create a root for dom manipulation - React.createRoot(document.getElementById("root"))
+3) root.render(the element)
+
+
+for production, we need parcel to build the app using npx parcel index.html
+
+parcel
+dev build'
+local server
+HMR = Hot module replacement uses a file watching algorithm
+Faster builds - by caching
+Image optimization
+Minification of files - Bundler (compress)
+Consistent hashing
+code splitting
+differential bundling
