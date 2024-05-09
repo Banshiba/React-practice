@@ -1,0 +1,22 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Banshiba/React-practice.git"
+  },
+  "author": "Abhishek Bantiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Banshiba/React-practice/issues"
+  },
+  "homepage": "https://github.com/Banshiba/React-practice#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
