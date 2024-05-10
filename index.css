@@ -1,0 +1,162 @@
+/* Global styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #464444;
+}
+
+/* Header styles */
+#header {
+  background-color: #e65100;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding 3D shadow effect with increased spread */
+  border-radius: 10px;
+}
+
+#logo-container img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#nav-items ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#nav-items ul li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+#nav-items ul li:last-child {
+  margin-right: 0;
+}
+
+#nav-items ul li {
+  color: white;
+  text-decoration: none;
+  /* transition: color 0.3s ease; */
+}
+
+#nav-items ul li:hover {
+  color: black;
+  cursor: pointer;
+}
+
+/* App styles */
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #1976d2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #90caf9;
+}
+
+/* Search styles */
+#search-bar {
+  margin-bottom: 20px;
+  display: flex; /* Use flexbox to align items */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+#search-bar input[type="text"] {
+  width: calc(100% - 40px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#search-bar button[type="submit"] {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search-bar button[type="submit"]:hover {
+  background-color: #0d47a1;
+}
+
+/* Restaurant card styles */
+#card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  width: 250px;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; 
+}
+
+#card img {
+  width: 100%; /* Make the image width 100% of its container */
+  max-width: 100px; /* Set a maximum width for the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px;
+
+}
+
+#restuarantInfo {
+  margin-top: 10px;
+}
+
+#restaurantName {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#cusinies {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#cusinies li {
+  display: inline;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+/* Restaurant container styles */
+#RestaurantContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Body styles */
+#body {
+  padding: 20px;
+}

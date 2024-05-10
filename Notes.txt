@@ -15,3 +15,14 @@ Minification of files - Bundler (compress)
 Consistent hashing
 code splitting
 differential bundling
+
+configuring scripts in package.json
+npm run start (can also be npm start)
+npm run build 
+
+React mein there r two types of components
+Class Based
+Function Based
+
+props are basically arguments to a function
+
