@@ -26,3 +26,12 @@ Function Based
 
 props are basically arguments to a function
 
+Two export types: default export and expor
+
+
+export default component;
+import component from path;
+
+export const component;
+import {component} from path
+
