@@ -35,3 +35,9 @@ import component from path;
 export const component;
 import {component} from path
 
+React hooks normal js utility functions
+useState() -  powerful state variables
+useEffect()
+
+When state variables update, react re-renders the component
+

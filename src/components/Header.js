@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 const Header = () => {
+  const [login, setLogin] = useState("Login")
     return (
       <div id="header">
         <div id="logo-container">
@@ -13,6 +16,9 @@ const Header = () => {
             <li>About Us</li>
             <li>Contact us</li>
             <li>Cart</li>
+            <li onClick={() => {
+              login === "Login" ? setLogin("Logout") : setLogin("Login")
+            }}>{login}</li>
           </ul>
         </div>
       </div>
