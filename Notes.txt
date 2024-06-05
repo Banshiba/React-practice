@@ -35,9 +35,64 @@ import component from path;
 export const component;
 import {component} from path
 
+
 React hooks normal js utility functions
 useState() -  powerful state variables
 useEffect()
 
 When state variables update, react re-renders the component
+
+useEffect Notes
+if empty dependency array then useEfect is called once on initial render
+
+
+Routing in react application using the library: react-router-dom
+
+Hook given by react-router-dom 
+useRouteError
+
+Navigate to new page without reloading the whole page
+link component from react-router-dom
+
+Dynamic Routing :id useParams variable
+
+class Based component
+class extends React.Component
+
+Life cycle of react class based component
+
+constructor -> render -> componentDidMount()
+make api call in componentDidMount()
+
+
+Other functions are componentDidUpdate() 
+componentWillUnmount()
+
+U also have a concept of lazy loading -> using lazy function in node
+Suspense and fallback in react-router-dom
+
+Higher Order components -. Take existing component and return an update version of it 
+
+Data management
+
+
+reactContext
+createContext => working
+const UserContext = createContext({
+    loggedInUser: 'default User'
+})
+
+const {loggedInUser} = useContext(UserContextv )
+useContext
+<UserContext.Consumer>
+{
+    (data) => console.log("The context data is " + data)
+}
+< UserContext.Counsumer />
+
+<UserContext.Provider value=({loggedInUser: userName(state variable)})
+
+
+
+
 
